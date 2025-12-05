@@ -151,10 +151,38 @@ body {
 }
 
 .cta {
-  padding: 5.625rem 3.125rem;
-  background: var(--blue);
+  padding: 1.4rem;
+  background-image: url("images/Screenshot From 2025-12-04 16-02-13.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 31.25rem;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+
   color: var(--white);
+  flex-direction: column;
+}
+
+.cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.cta * {
+  position: relative;
+  z-index: 2;
 }
 
 .cta .title {
@@ -206,12 +234,22 @@ footer {
 
 .location {
   margin-top: 3rem;
-  width: 50%;
+  width: 23rem;
   cursor: pointer;
 }
 
 .adress {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 0.4rem;
+}
+
+.imgLogo {
+  display: flex;
+  width: 5rem;
+}
+
+.developBy {
+  margin-top: 0.5rem;
+  color: var(--text-dark);
 }
