@@ -203,3 +203,15 @@ footer {
     gap: 0.938rem;
   }
 }
+
+.location {
+  margin-top: 3rem;
+  width: 50%;
+  cursor: pointer;
+}
+
+.adress {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
