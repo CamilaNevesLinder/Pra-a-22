@@ -237,6 +237,7 @@ footer {
   margin-top: 3rem;
   width: 23rem;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .adress {
