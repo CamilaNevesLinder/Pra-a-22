@@ -120,4 +120,14 @@ footer {
   margin-bottom: 1.7rem;
   font-weight: 700;
   color: var(--text-light);
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.information:hover {
+  transform: scale(1.2);
+}
+
+.informationLink {
+  text-decoration: none;
 }
