@@ -164,3 +164,53 @@ footer {
 .icone:hover {
   transform: scale(1.2);
 }
+
+/* TABLET (>= 768px) */
+@media (min-width: 768px) {
+  .contacts {
+    width: 70%;
+    max-width: 600px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .callToAction {
+    font-size: 1.5rem;
+  }
+}
+
+/* NOTEBOOK / DESKTOP (>= 1024px) */
+@media (min-width: 1024px) {
+  .contacts {
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .containerContacts {
+    width: 45%;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .callToAction {
+    font-size: 1.8rem;
+  }
+
+  .topBar {
+    padding: 0.5rem 3rem;
+  }
+
+  .link {
+    font-size: 1.2rem;
+  }
+
+  .imgLogo {
+    width: 5rem;
+  }
+}
