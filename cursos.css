@@ -151,14 +151,24 @@ footer {
 }
 
 .description {
-  display: none;
-  margin-top: 0.5rem;
-  color: var(--text-light);
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 0;
   font-weight: 500;
   background-color: #aeb1b6;
-  padding-left: 0.5rem;
+  padding: 0 0.5rem;
   font-size: 1.3rem;
   border-radius: 0.5rem;
   width: 100%;
   color: var(--white);
+  transition: max-height 1.2s ease, opacity 1.2s ease, padding 1.2s ease,
+    margin-top 1.2s ease;
+}
+
+.description.active {
+  max-height: 500px; /* ajuste para caber o texto */
+  opacity: 1;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
