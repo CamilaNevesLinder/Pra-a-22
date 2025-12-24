@@ -167,7 +167,7 @@ footer {
 }
 
 .description.active {
-  max-height: 500px; /* ajuste para caber o texto */
+  max-height: 500px;
   opacity: 1;
   padding: 0.5rem;
   margin-top: 0.5rem;
