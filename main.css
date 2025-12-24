@@ -297,3 +297,84 @@ footer {
 
 @media (min-width: 768px) {
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .containerOne {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  .mainImage img {
+    width: 24rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-size: 1.125rem;
+  }
+
+  .cards {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .cta {
+    height: 28rem;
+    padding: 3rem;
+  }
+
+  .location {
+    width: 22rem;
+  }
+
+  .adress {
+    font-size: 1rem;
+  }
+}
+
+/* ================== NOTEBOOK / DESKTOP (>= 1024px) ================== */
+@media (min-width: 1024px) {
+  .containerOne {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 6rem;
+    gap: 5.9rem;
+  }
+
+  .mainImage img {
+    width: 28rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .text {
+    font-size: 1.125rem;
+  }
+
+  .cards {
+    flex-direction: row;
+    gap: 1.875rem;
+  }
+
+  .cta {
+    height: 31.25rem;
+    padding: 0 6rem;
+  }
+
+  .location {
+    width: 23rem;
+  }
+
+  .adress {
+    font-size: 1rem;
+  }
+}
