@@ -8,6 +8,9 @@
 body {
   background: #f8fafc;
   color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 :root {
@@ -133,6 +136,7 @@ footer {
 }
 
 .contacts {
+  flex: 1;
   margin: 5rem auto;
   border: solid var(--orange-light);
   width: 30rem;
