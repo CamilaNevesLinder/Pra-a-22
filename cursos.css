@@ -172,3 +172,56 @@ footer {
   padding: 0.5rem;
   margin-top: 0.5rem;
 }
+
+@media (min-width: 768px) {
+  .listClasses {
+    max-width: 500px;
+  }
+
+  .titleClasses {
+    font-size: 2.5rem;
+  }
+
+  .information {
+    font-size: 1.2rem;
+  }
+}
+
+/* ================== NOTEBOOK / DESKTOP (>= 1024px) ================== */
+@media (min-width: 1024px) {
+  .classes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .listClasses {
+    width: 300px;
+    max-width: none;
+  }
+
+  .itemList {
+    font-size: 1.3rem;
+  }
+
+  .titleClasses {
+    font-size: 3rem;
+  }
+
+  .information {
+    font-size: 1.5rem;
+  }
+
+  .topBar {
+    padding: 0.5rem 3rem;
+  }
+
+  .link {
+    font-size: 1.2rem;
+  }
+
+  .imgLogo {
+    width: 5rem;
+  }
+}
