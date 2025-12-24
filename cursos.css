@@ -8,6 +8,9 @@
 body {
   background: #f8fafc;
   color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 :root {
@@ -45,6 +48,7 @@ body {
 .links {
   display: flex;
   gap: 1.875rem;
+  margin-right: 1rem;
 }
 
 .link {
@@ -88,11 +92,13 @@ footer {
 }
 
 .classes {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin: 5rem;
+  margin: 2rem 0;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 }
 
 .listClasses {
@@ -103,10 +109,14 @@ footer {
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 25rem;
+  height: 25rem;
 }
 
 .itemList {
   font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 1rem;
   color: var(--blue-dark);
 }
 
@@ -114,6 +124,7 @@ footer {
   margin-bottom: 1rem;
   color: var(--blue);
   font-weight: 900;
+  font-size: 3rem;
 }
 
 .information {
@@ -122,6 +133,7 @@ footer {
   color: var(--text-light);
   cursor: pointer;
   transition: transform 0.4s;
+  font-size: 1.5rem;
 }
 
 .information:hover {

@@ -8,6 +8,8 @@
 body {
   background: #f8fafc;
   color: #1e293b;
+  display: flex;
+  flex-direction: column;
 }
 
 :root {
@@ -45,6 +47,7 @@ body {
 .links {
   display: flex;
   gap: 1.875rem;
+  margin-right: 1rem;
 }
 
 .link {
@@ -168,6 +171,9 @@ body {
 
   color: var(--white);
   flex-direction: column;
+  width: 100%;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
 }
 
 .cta::before {
@@ -287,4 +293,7 @@ footer {
 
 .icon:hover {
   transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
 }
