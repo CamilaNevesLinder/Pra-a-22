@@ -190,14 +190,14 @@ footer {
 /* ================== NOTEBOOK / DESKTOP (>= 1024px) ================== */
 @media (min-width: 1024px) {
   .classes {
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
   }
 
   .listClasses {
-    width: 300px;
+    width: 23rem;
     max-width: none;
   }
 
