@@ -110,7 +110,7 @@ footer {
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   width: 25rem;
-  height: 25rem;
+  transition: all 0.3s ease;
 }
 
 .itemList {
@@ -118,6 +118,7 @@ footer {
   font-size: 1.5rem;
   margin-left: 1rem;
   color: var(--blue-dark);
+  position: relative;
 }
 
 .titleClasses {
@@ -142,4 +143,22 @@ footer {
 
 .informationLink {
   text-decoration: none;
+}
+
+.iconPlus {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.description {
+  display: none;
+  margin-top: 0.5rem;
+  color: var(--text-light);
+  font-weight: 500;
+  background-color: #aeb1b6;
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  color: var(--white);
 }
